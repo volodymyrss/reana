@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   reana:
   - apiVersion: v2
-    created: "2025-09-15T21:30:44.890479955+02:00"
+    created: "2025-09-15T21:36:36.727659082+02:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -63,7 +63,7 @@ entries:
     - reana-0.95.0-alpha.2-6-g970d4b7.tgz
     version: 0.95.0-alpha.2-6-g970d4b7
   - apiVersion: v2
-    created: "2025-09-15T21:30:44.872412948+02:00"
+    created: "2025-09-15T21:36:36.710040991+02:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -120,7 +120,7 @@ entries:
     - reana-0.95.0-alpha.2-3-g02053cf.tgz
     version: 0.95.0-alpha.2-3-g02053cf
   - apiVersion: v2
-    created: "2025-09-15T21:30:44.8555989+02:00"
+    created: "2025-09-15T21:36:36.691009493+02:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -158,6 +158,6 @@ entries:
     - https://github.com/reanahub/www.reana.io
     type: application
     urls:
-    - reana-0.9.4-1-gcd7dcb3.tgz
+    - reana-0.9.4-1-gcd7dcb3-patch.tgz
     version: 0.9.4-1-gcd7dcb3
-generated: "2025-09-15T21:30:44.837244216+02:00"
+generated: "2025-09-15T21:36:36.673677548+02:00"

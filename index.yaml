@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   reana:
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.613338202+01:00"
+    created: "2025-11-17T22:21:51.51355869+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -63,7 +63,7 @@ entries:
     - reana-0.95.0-alpha.2-6-g970d4b7.tgz
     version: 0.95.0-alpha.2-6-g970d4b7
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.596399676+01:00"
+    created: "2025-11-17T22:21:51.497594493+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -120,7 +120,7 @@ entries:
     - reana-0.95.0-alpha.2-3-g02053cf.tgz
     version: 0.95.0-alpha.2-3-g02053cf
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.615965887+01:00"
+    created: "2025-11-17T22:21:51.515693154+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -161,7 +161,7 @@ entries:
     - helm/reana-0.9.4-dev1.tgz
     version: 0.9.4-dev1
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.557387415+01:00"
+    created: "2025-11-17T22:21:51.447961477+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -170,7 +170,7 @@ entries:
       - ingress
       version: 10.6.2
     description: REANA reproducible research data analysis platform
-    digest: 3e05f61a4d45a472c4f75ff35bded6eddc1ea4080d10db25aa3bbd70e06adcc8
+    digest: 7e6cea5c2b8a06a881489047ee87ce12dc75e1499d5b186adbe053e7ed3c690d
     home: www.reana.io
     icon: http://www.reana.io/static/img/logo-reana.svg
     keywords:
@@ -200,9 +200,9 @@ entries:
     type: application
     urls:
     - reana-0.9.4-1-gcd7dcb3-dev.tgz
-    version: 0.9.4-1-gcd7dcb3
+    version: 0.9.4-1-gcd7dcb3-dev
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.573504563+01:00"
+    created: "2025-11-17T22:21:51.468512793+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -243,7 +243,7 @@ entries:
     - reana-0.9.4-1-gcd7dcb3-patch.tgz
     version: 0.9.4-1-gcd7dcb3
   - apiVersion: v2
-    created: "2025-11-17T22:18:44.580617975+01:00"
+    created: "2025-11-17T22:21:51.476816478+01:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -283,4 +283,4 @@ entries:
     urls:
     - reana-0.9.4-1-gcd7dcb3.tgz
     version: 0.9.4-1-gcd7dcb3
-generated: "2025-11-17T22:18:44.549942727+01:00"
+generated: "2025-11-17T22:21:51.438086192+01:00"
